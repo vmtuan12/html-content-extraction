@@ -95,6 +95,7 @@ public class HtmlHandler {
         }
         if (element.childrenSize() == 0) {
             stringBuilder.append(element.text().trim()).append(" ");
+            return;
         }
 //        Elements elementChildren = element.children();
 //        for (Element child : elementChildren) {
